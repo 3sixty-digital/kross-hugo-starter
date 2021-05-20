@@ -1,4 +1,14 @@
 ---
 label: Image component
 hide_body: true
-fields: []
+fields:
+- name: image_upload
+  type: file
+  config:
+    maxSize: 64
+  label: Image upload
+- name: alt_text
+  type: text
+  config:
+    required: false
+  label: Alt text
