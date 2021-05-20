@@ -14,5 +14,13 @@ fields:
 - type: text
   name: description
   label: description
+- name: content_blocks
+  type: blocks
+  template_types:
+  - image-component
+  config:
+    min: 
+    max: 
+  label: Content Blocks
 pages:
 - content/blog/new-blog-post.md
